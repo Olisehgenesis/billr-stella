@@ -26,10 +26,10 @@ const Header = () => (
           <button className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-lg transition-colors">
             About
           </button>
-          <a href="/create" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-lg transition-colors">
+          <a href="/app/create" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-lg transition-colors">
             Create
           </a>
-          <a href="/invoices" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-lg transition-colors">
+          <a href="/app/invoices" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-lg transition-colors">
             Dashboard
           </a>
           <a href="https://github.com/Olisehgenesis/billr-stella" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-lg transition-colors flex items-center">

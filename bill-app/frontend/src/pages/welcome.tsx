@@ -1,5 +1,5 @@
 
-import { ArrowRight, FileText, CreditCard, CheckCircle, Users, Shield, Zap, Star, TrendingUp } from 'lucide-react';
+import { ArrowRight, FileText, CreditCard, CheckCircle, Users, Shield, Zap, Star, TrendingUp, Github } from 'lucide-react';
 import Header from '../components/Header';
 
 export default function WelcomePage() {
@@ -74,6 +74,30 @@ export default function WelcomePage() {
               <TrendingUp className="w-8 h-8 text-orange-600" />
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Open Source Contribution Notice */}
+      <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+        <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 text-center mb-8">
+          <p className="text-lg text-blue-800 font-semibold mb-2">
+            Built for Stellar ✦
+          </p>
+          <p className="text-gray-700 flex flex-col items-center justify-center gap-2">
+            <span className="flex items-center justify-center gap-2">
+              <Github className="w-5 h-5 text-gray-800" />
+              Contribute to Billr on GitHub by forking the project:
+              <a
+                href="https://github.com/Olisehgenesis/billr-stella"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline ml-1"
+              >
+                github.com/Olisehgenesis/billr-stella
+              </a>
+            </span>
+            <span>Thank you!</span>
+          </p>
         </div>
       </section>
 

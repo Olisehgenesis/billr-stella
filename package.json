@@ -1,0 +1,13 @@
+{
+	"dependencies": {
+		"buffer": "^6.0.3",
+		"framer-motion": "^12.23.6",
+		"lucide-react": "^0.525.0",
+		"process": "^0.11.10",
+		"util": "^0.12.5"
+	},
+	"devDependencies": {
+		"@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+		"@esbuild-plugins/node-modules-polyfill": "^0.2.2"
+	}
+}

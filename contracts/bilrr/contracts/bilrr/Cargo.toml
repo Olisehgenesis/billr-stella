@@ -1,0 +1,24 @@
+[package]
+name = "billr-contract"
+version = "0.1.0"
+description = "Decentralized invoicing smart contract for Stellar Soroban"
+authors = ["Your Name <your.email@example.com>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+keywords = ["soroban", "stellar", "invoicing", "smart-contract", "usdc"]
+categories = ["cryptography::cryptocurrencies"]
+publish = false
+
+[lib]
+crate-type = ["lib", "cdylib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
+
+[features]
+default = []
+testutils = ["soroban-sdk/testutils"]
